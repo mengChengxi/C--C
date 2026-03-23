@@ -1,0 +1,58 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug (g++-14)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "terminal": "integrated",
+            "preLaunchTask": "build-debug (g++-14)"
+        },
+        {
+            "name": "Run (g++-14)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "terminal": "integrated",
+            "preLaunchTask": "build-debug (g++-14)",
+            "noDebug": true
+        },
+        {
+            "name": "Run C (gcc-14)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "terminal": "integrated",
+            "preLaunchTask": "build-debug (gcc-14)"
+        },
+        {
+            "name": "Debug C (gcc-14)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "terminal": "integrated",
+            "preLaunchTask": "build-debug (gcc-14)"
+        }
+    ]
+}

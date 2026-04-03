@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/C2. A Simple GCD Problem (Hard Version)'
+relocations:
+  - { offset: 0x16DD3, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x65B7E, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16EBC, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x664, symBinAddr: 0x100000DF0, symSize: 0x0 }
+  - { offset: 0x16ED2, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x668, symBinAddr: 0x100000DF4, symSize: 0x0 }
+  - { offset: 0x17074, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_C2._A_Simple_GCD_Problem__Hard_Version_.cpp, symObjAddr: 0x6B0, symBinAddr: 0x100000D48, symSize: 0x14 }
+  - { offset: 0x1708B, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x674, symBinAddr: 0x100000D0C, symSize: 0x3C }
+  - { offset: 0x170A2, size: 0x8, addend: 0x0, symName: __ZNSt8__detail5__gcdIjEET_S1_S1_, symObjAddr: 0x55C, symBinAddr: 0x100000C04, symSize: 0x108 }
+  - { offset: 0x1712F, size: 0x8, addend: 0x0, symName: __ZSt3lcmIiiENSt11common_typeIJT_T0_EE4typeES1_S2_, symObjAddr: 0x474, symBinAddr: 0x100000B1C, symSize: 0xE8 }
+  - { offset: 0x171F4, size: 0x8, addend: 0x0, symName: __ZSt3gcdIiiENSt11common_typeIJT_T0_EE4typeES1_S2_, symObjAddr: 0x438, symBinAddr: 0x100000AE0, symSize: 0x3C }
+  - { offset: 0x1726B, size: 0x8, addend: 0x0, symName: __ZNSt8__detail7__abs_rIiiEET_T0_, symObjAddr: 0x40C, symBinAddr: 0x100000AB4, symSize: 0x2C }
+  - { offset: 0x172AB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x39C, symBinAddr: 0x100000A44, symSize: 0x70 }
+  - { offset: 0x172D9, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x54, symBinAddr: 0x1000006FC, symSize: 0x348 }
+  - { offset: 0x17415, size: 0x8, addend: 0x0, symName: __ZSt13__countr_zeroIjEiT_, symObjAddr: 0x0, symBinAddr: 0x1000006A8, symSize: 0x54 }
+...

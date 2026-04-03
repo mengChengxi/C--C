@@ -1,0 +1,107 @@
+{
+  "C++ Initial Template": {
+    "prefix": "c++",
+    "body": [
+      "#include <iostream>",
+      "",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "    ${0:/* code */}",
+      "    return 0;",
+      "}"
+    ],
+    "description": "基本的 C++ 模板"
+  },
+
+  "For Loop": {
+    "prefix": "fori",
+    "body": [
+      "for (int ${1:i} = 0; ${1:i} < ${2:n}; ++${1:i}) {",
+      "    $0",
+      "}"
+    ],
+    "description": "标准的 for 循环"
+  },
+
+  "Standard Header": {
+    "prefix": "include",
+    "body": [
+      "#include <${1:iostream}>",
+      "$0"
+    ],
+    "description": "包含头文件"
+  },
+
+  "Competitive Programming Template": {
+    "prefix": "cp",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+        "const int INF = 0x3f3f3f3f;",
+        "const int mod = 1e9 + 7;",
+        "#define mkp make_pair",
+      "",
+      "void solve() {",
+      "    $0",
+      "}",
+      "",
+      "int main() {",
+      "    ios_base::sync_with_stdio(false);",
+      "    cin.tie(NULL);",
+      "    int dashabi;",
+      "    cin >> dashabi;",
+      "    while (dashabi--) {",
+      "        solve();",
+      "    }",
+      "    return 0;",
+      "}"
+    ],
+    "description": "竞赛编程模板"
+  },
+  "binary_search": {
+		"prefix": "binary_search",
+			"body": [
+    		"auto it = lower_bound(nums.begin(), nums.end(), i);//first element >= i",
+			"auto it = upper_bound(nums.begin(), nums.end(), i);//first element > i",
+			"if(it!=nums.end())",
+			"    *it;//value",
+			"    distance(nums.begin(),it);//index"
+		],
+    "description": "binary search for value"
+  	},
+  "Unordered Map Basic": {
+    "prefix": "hash_basic",
+    "body": [
+      "unordered_map<${1:int}, ${2:int}> mp;",
+      "mp.reserve(100005); // 预分配空间防止多次 rehash",
+      "// mp[key] = val;      // 插入或修改",
+      "// mp.count(key);      // 检查是否存在 (1 or 0)",
+      "// mp.erase(key);      // 删除",
+      "// for (auto const& [k, v] : mp) { $0 }"
+    ],
+    "description": "unordered_map 基础模板与常用操作"
+  },
+
+  "Unordered Map Safe": {
+    "prefix": "hash_safe",
+    "body": [
+      "struct custom_hash {",
+      "    static uint64_t splitmix64(uint64_t x) {",
+      "        x += 0x9e3779b97f4a7c15;",
+      "        x = (x ^ (x >> 30)) * 0xbf58476d1ce4e5b9;",
+      "        x = (x ^ (x >> 27)) * 0x94d049bb133111eb;",
+      "        return x ^ (x >> 31);",
+      "    }",
+      "    size_t operator()(uint64_t x) const {",
+      "        static const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count();",
+      "        return splitmix64(x + FIXED_RANDOM);",
+      "    }",
+      "};",
+      "unordered_map<${1:long long}, ${2:int}, custom_hash> safe_map;$0"
+    ],
+    "description": "带随机种子的安全 unordered_map (防 Hack)"
+  }
+
+
+}

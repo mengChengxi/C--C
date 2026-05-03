@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/A - String Rotation Game'
+relocations:
+  - { offset: 0x16CB7, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64E3B, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16DA0, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x24C, symBinAddr: 0x100000A40, symSize: 0x0 }
+  - { offset: 0x16DB6, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x250, symBinAddr: 0x100000A44, symSize: 0x0 }
+  - { offset: 0x16F58, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_A___String_Rotation_Game.cpp, symObjAddr: 0x2AC, symBinAddr: 0x100000980, symSize: 0x14 }
+  - { offset: 0x16F6F, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x270, symBinAddr: 0x100000944, symSize: 0x3C }
+  - { offset: 0x16F8D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1DC, symBinAddr: 0x1000008D4, symSize: 0x70 }
+  - { offset: 0x16FBB, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x0, symBinAddr: 0x1000006F8, symSize: 0x1DC }
+...

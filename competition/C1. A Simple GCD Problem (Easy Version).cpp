@@ -10,6 +10,7 @@ void solve() {
     cin>>n;
     int nums[n+2];
     nums[0]=1;
+    
     nums[n+1]=1;
     for(int i=1; i<n+1; i++){
         int t;

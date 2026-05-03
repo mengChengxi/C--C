@@ -1,0 +1,4 @@
+CompileFlags:
+  CompilationDatabase: None
+  Compiler: /opt/homebrew/bin/g++-14
+  Add: [-std=gnu++17]

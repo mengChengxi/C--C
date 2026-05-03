@@ -22,5 +22,6 @@ int main() {
     while (dashabi--) {
         solve();
     }
+    
     return 0;
 }

@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <stack>
 using namespace std;
 const int INF = 0x3f3f3f3f;
 const int mod = 1e9 + 7;
@@ -9,12 +10,17 @@ struct custom_hash {
         x = (x ^ (x >> 30)) * 0xbf58476d1ce4e5b9;
         x = (x ^ (x >> 27)) * 0x94d049bb133111eb;
         return x ^ (x >> 31);
+        
     }
+   
     size_t operator()(uint64_t x) const {
         static const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count();
         return splitmix64(x + FIXED_RANDOM);
     }
+    
+    
 };
+
 unordered_map<long long, int, custom_hash> safe_map;
 void solve() {
     safe_map.clear();
@@ -24,8 +30,9 @@ void solve() {
     // mp.count(key);      // 检查是否存在 (1 or 0)
     // mp.erase(key);      // 删除
     // for (auto const& [k, v] : mp) {  }
-
+    
     int n,k;
+    string a="sdfsd";
     cin>>n;
     cin>>k;
     safe_map.reserve(k);
@@ -35,19 +42,25 @@ void solve() {
         int t;
         cin>>t;
         nums[i]=t;
+        
 
     }
+    
+    
     for(int i=0; i<n; i++){
         int t;
         cin>>t;
         model[i]=t;
-
+        
     }
-
+    
+    
     for(int i=n-k; i<k; i++){
         safe_map[nums[i]]=1;
 
     }
+    
+    
 //    1234567
 //    1-4-3--
 
@@ -70,9 +83,11 @@ void solve() {
                 cout<<"NO"<<endl;
                 return;
             }
+            mod
         }
     }
     cout<<"YES"<<endl;
+    
 
 }
 
@@ -86,3 +101,5 @@ int main() {
     }
     return 0;
 }
+
+

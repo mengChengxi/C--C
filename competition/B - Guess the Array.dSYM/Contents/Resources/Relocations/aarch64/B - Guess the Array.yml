@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/B - Guess the Array'
+relocations:
+  - { offset: 0x17B6A, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x67401, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x1813F, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x354, symBinAddr: 0x100000B0C, symSize: 0x0 }
+  - { offset: 0x18155, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x358, symBinAddr: 0x100000B10, symSize: 0x0 }
+  - { offset: 0x182F7, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_B___Guess_the_Array.cpp, symObjAddr: 0x3D0, symBinAddr: 0x100000A88, symSize: 0x14 }
+  - { offset: 0x1830E, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x394, symBinAddr: 0x100000A4C, symSize: 0x3C }
+  - { offset: 0x1832C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x320, symBinAddr: 0x100000A18, symSize: 0x34 }
+  - { offset: 0x1834A, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x0, symBinAddr: 0x1000006F8, symSize: 0x320 }
+...

@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/C. Spring'
+relocations:
+  - { offset: 0x16DA6, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x65AA7, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16E8F, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x58C, symBinAddr: 0x100000D74, symSize: 0x0 }
+  - { offset: 0x16EA5, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x590, symBinAddr: 0x100000D78, symSize: 0x0 }
+  - { offset: 0x17047, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_C._Spring.cpp, symObjAddr: 0x5E0, symBinAddr: 0x100000CC0, symSize: 0x14 }
+  - { offset: 0x1705E, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x5A4, symBinAddr: 0x100000C84, symSize: 0x3C }
+  - { offset: 0x17075, size: 0x8, addend: 0x0, symName: __ZNSt8__detail5__gcdIyEET_S1_S1_, symObjAddr: 0x484, symBinAddr: 0x100000B7C, symSize: 0x108 }
+  - { offset: 0x17102, size: 0x8, addend: 0x0, symName: __ZSt13__countr_zeroIyEiT_, symObjAddr: 0x430, symBinAddr: 0x100000B28, symSize: 0x54 }
+  - { offset: 0x17172, size: 0x8, addend: 0x0, symName: __ZSt3lcmIxxENSt11common_typeIJT_T0_EE4typeES1_S2_, symObjAddr: 0x324, symBinAddr: 0x100000A1C, symSize: 0x10C }
+  - { offset: 0x17237, size: 0x8, addend: 0x0, symName: __ZNSt8__detail7__abs_rIxxEET_T0_, symObjAddr: 0x2F8, symBinAddr: 0x1000009F0, symSize: 0x2C }
+  - { offset: 0x17277, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x288, symBinAddr: 0x100000980, symSize: 0x70 }
+  - { offset: 0x172A6, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x0, symBinAddr: 0x1000006F8, symSize: 0x288 }
+...

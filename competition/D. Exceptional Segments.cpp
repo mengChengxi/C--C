@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 const int INF = 0x3f3f3f3f;
 const int mod = 1e9 + 7;
@@ -15,6 +17,7 @@ void solve() {
     after = (n+3)/4-before;
     result+=((before%m)*(after%m))%m;
     cout<<result%m<<endl;
+
 
 
 }
